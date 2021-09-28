@@ -1,0 +1,12 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /demo
+
+spring:
+  application:
+    name: spring-demo
+#  datasource:
+#    driver-class-name:
+
+
