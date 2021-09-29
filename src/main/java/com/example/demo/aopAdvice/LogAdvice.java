@@ -17,12 +17,7 @@ public class LogAdvice {
         System.out.println("get请求的前置Advice触发了");
     }
 
-    @Around(value = "@annotation(org.springframework.web.bind.annotation.GetMapping)")
-    public void  around(JoinPoint joinPoint){
 
-
-
-    }
 
 
 }

@@ -18,8 +18,9 @@ public class AopController {
         System.out.println("getTest方法执行了");
         return JSON.parseObject("{\"message\":\"SUCCESS\",\"code\":200}");
     }
-    @PostMapping(value = "/getTest")
+    @PostMapping(value = "/postTest")
     public JSONObject aopTest2(){
+        System.out.println("postTest方法执行了");
         return JSON.parseObject("{\"message\":\"SUCCESS\",\"code\":200}");
     }
 
